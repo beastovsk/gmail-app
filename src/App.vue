@@ -1,10 +1,12 @@
+
 <script lang="ts">
 import Header from '@/components/Header/Header.vue'
+import Sidebar from './components/Sidebar/Sidebar.vue';
 
 export default {
   setup() {
     components: {
-      Header
+      Header,Sidebar
     }
   },
   data() {
@@ -17,6 +19,8 @@ export default {
 
 <template>
   <Header />
+  <Sidebar/>
 </template>
 
 <style scoped></style>
+
