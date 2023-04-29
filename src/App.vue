@@ -1,18 +1,18 @@
 <script lang="ts">
-import Header from '@/components/Header/Header.vue'
-import Sidebar from '@/components/Sidebar/SideBar.vue'
+import HeaderComponent from './components/HeaderComponent/HeaderComponent.vue'
+import Sidebar from './components/Sidebar/SideBar.vue'
 
 export default {
   data() {
     return {}
   },
   methods: {},
-  components: { Header, Sidebar }
+  components: { HeaderComponent, Sidebar }
 }
 </script>
 
 <template>
-  <Header />
+  <HeaderComponent />
   <Sidebar />
 </template>
 

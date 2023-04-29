@@ -4,7 +4,7 @@
       <h2>Not Gmail</h2>
       <n-input suffix="fdsf" type="text" placeholder="Поиск" class="input"
         ><template #suffix>
-          <n-icon class="search-icon" size="32" :component="SearchOutlined" /> </template
+          <n-icon class="search-icon" size="18" :component="SearchOutlined" /> </template
       ></n-input>
     </div>
     <div class="accounts">
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="add-profile">
-          <div class="add-icon"><n-icon size="50" :component="UserAddOutlined" /></div>
+          <div class="add-icon"><n-icon size="30" :component="UserAddOutlined" /></div>
           <div class="info">
             <p class="name">Добавить пользователя</p>
           </div>
@@ -81,16 +81,16 @@ export default {
 
   h2 {
     margin-right: 30px;
-    font-size: 32px;
+    font-size: 24px;
     width: 40%;
     white-space: nowrap;
   }
 }
 .input {
   background-color: rgba(107, 135, 175, 0.15) !important;
-  padding: 10px 30px;
+  padding: 5px 20px;
   border: none;
-  font-size: 24px;
+  font-size: 16px;
   border-radius: 30px;
 }
 .search-icon {
@@ -99,6 +99,7 @@ export default {
 .accounts {
   flex-grow: 1;
   display: flex;
+  justify-content: center;
   gap: 20px;
 }
 .creator {
@@ -111,17 +112,17 @@ export default {
   justify-content: flex-end;
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   cursor: pointer;
   p {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 .image {
   background: #000;
   border-radius: 100%;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 }
 .body {
   width: 400px;
@@ -136,7 +137,7 @@ export default {
   gap: 10px;
 
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .name {
@@ -155,6 +156,8 @@ export default {
 .add-icon {
   padding: 10px;
   background: rgb(236, 236, 236);
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
 }
 </style>
