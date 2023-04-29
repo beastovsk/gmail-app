@@ -108,7 +108,7 @@ export default {
   align-items: center;
 }
 .profile {
-  width: 30%;
+  width: max-content;
   justify-content: flex-end;
   display: flex;
   align-items: center;
