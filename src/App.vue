@@ -1,9 +1,22 @@
-<script setup lang="ts">
+<script lang="ts">
+import Header from '@/components/Header/Header.vue'
+
+export default {
+  setup() {
+    components: {
+      Header
+    }
+  },
+  data() {
+    return {}
+  },
+  methods: {},
+  components: { Header }
+}
 </script>
 
 <template>
-  asdasd
+  <Header />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
