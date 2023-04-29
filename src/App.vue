@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  
+  asdasd
 </template>
 
 <style scoped>
