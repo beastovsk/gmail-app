@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="content">
-      <div class="letter" v-for="letter in mailList">
+      <div class="letter" v-for="letter in $store.state.mailList">
         <div class="info">
           <NCheckbox />
           <div class="image"></div>
@@ -35,16 +35,6 @@ import { NCheckbox } from 'naive-ui'
 export default {
   data() {
     return {
-      mailList: [
-        {
-          id: 0,
-          image: '',
-          from: 'Яндекс ID',
-          title: 'Кто-то входил в ваш аккаунт',
-          description: 'Кто-то ввел неправильный пароль',
-          date: '12 апреля'
-        }
-      ],
       actionsList: [
         {
           icon: ArrowRightOutlined,
