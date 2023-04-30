@@ -23,6 +23,7 @@ export default {
 <style lang="scss" scoped>
 .container {
   display: flex;
+  height: 80vh;
   margin: 10px;
   padding: 20px 10px;
   border: 1px solid #ccc;
